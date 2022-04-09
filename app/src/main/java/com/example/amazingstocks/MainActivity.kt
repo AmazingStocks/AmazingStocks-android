@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         Amplify.Auth.fetchAuthSession(
             {
                 val session = it as AWSCognitoAuthSession
-                val token = it.userPoolTokens.value as AWSCognitoUserPoolTokens
+                val token = session.userPoolTokens.value as AWSCognitoUserPoolTokens
                 Log.i("AmplifyQuickstart", "token : "+ token.accessToken)
             },
             { error -> Log.e("AmplifyQuickstart", "Failed to fetch auth session", error) }
