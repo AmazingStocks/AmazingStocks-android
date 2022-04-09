@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amazingstocks-dev-111926-authRole",
+      "UnauthRoleArn": "arn:aws:iam::075926828855:role/amplify-amazingstocks-dev-111926-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::075926828855:role/amplify-amazingstocks-dev-111926-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-amazingstocks-dev-111926-deployment",
+      "UnauthRoleName": "amplify-amazingstocks-dev-111926-unauthRole",
+      "StackName": "amplify-amazingstocks-dev-111926",
+      "StackId": "arn:aws:cloudformation:ap-south-1:075926828855:stack/amplify-amazingstocks-dev-111926/d2e41d30-b7c8-11ec-999e-06113eeb495e",
+      "AmplifyAppId": "d2vywrai4kgs87"
+    },
+    "categories": {
+      "auth": {
+        "amazingstocks0fcfecc3": {}
+      }
+    }
+  }
+}
